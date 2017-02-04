@@ -2,6 +2,5 @@ cx_Oracle
 lxml
 robotframework
 robotframework-httplibrary
-robotframework-hub
 robotframework-requests
 robotframework-selenium2library

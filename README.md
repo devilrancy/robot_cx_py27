@@ -5,7 +5,7 @@ This is a docker container which with a pre-installed Python 2.7, cx_Oracle modu
 
 ### Create a Docker File ###
 ```
-FROM sbanal/python-oracle-xe12.1-latest
+FROM devilrancy/robot_cx_py27
 COPY yourapp.py /code/app.py
 ```
 
@@ -20,7 +20,7 @@ $ docker run -it --rm --name my-web-app my-python-app
 
 Local volume where app resides must have a main application whose name is app.py
 ```
-docker run -it --rm --name my-python-app -v "/my/local/path/":/code sbanal/python-oracle-xe12.1-latest
+docker run -it --rm --name my-python-app -v "/my/local/path/":/code devilrancy/robot_cx_py27
 ```
 #### Example ####
 ##### Create file app.py in your directory with contents below  #####

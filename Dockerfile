@@ -34,8 +34,8 @@ RUN ldconfig
 
 # Install python app
 ADD test.py /code/
-ADD requirements.txt /code/
+ADD docker_requirements.txt /code/
 WORKDIR /code
-RUN pip install -r requirements.txt
+RUN pip install -r docker_requirements.txt
 
 RUN python test.py

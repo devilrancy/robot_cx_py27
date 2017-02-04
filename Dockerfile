@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2.7-slim
 
 # Install Ubuntu packages
 RUN apt-get update
